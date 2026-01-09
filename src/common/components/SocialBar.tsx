@@ -4,7 +4,7 @@
 // Social Bar Component for displaying social media links
 // ============================================================================
 
-import { FaEnvelope, FaFilePdf, FaGithub, FaLinkedin  } from "react-icons/fa";
+import { FaEnvelope, FaFilePdf, FaSquareGithub, FaLinkedin  } from "react-icons/fa6";
 
 export default function SocialBar() {
     return (
@@ -16,7 +16,7 @@ export default function SocialBar() {
                 <FaFilePdf />
             </a>
             <a href="https://github.com/zszach23" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-                <FaGithub />
+                <FaSquareGithub />
             </a>
             <a href="https://www.linkedin.com/in/zachary-sally/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <FaLinkedin />
