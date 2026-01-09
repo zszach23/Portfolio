@@ -1,7 +1,7 @@
 // ============================================================================
 // src/common/layout/MainLayout.tsx
 //
-// Main layout component for the application.
+// Main layout for the application.
 // ============================================================================
 
 import type { MainLayoutProps } from "./MainLayoutTypes";

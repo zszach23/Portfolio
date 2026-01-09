@@ -1,0 +1,26 @@
+// ============================================================================
+// src/common/components/SocialBar.tsx
+//
+// Social Bar Component for displaying social media links
+// ============================================================================
+
+import { FaEnvelope, FaFilePdf, FaGithub, FaLinkedin  } from "react-icons/fa";
+
+export default function SocialBar() {
+    return (
+        <nav aria-label="Social Media Links">
+            <a href="mailto:zszach23@gmail.com" aria-label="Email">
+                <FaEnvelope />
+            </a>
+            <a href="/Zachary_Sally_Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Resume">
+                <FaFilePdf />
+            </a>
+            <a href="https://github.com/zszach23" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <FaGithub />
+            </a>
+            <a href="https://www.linkedin.com/in/zachary-sally/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <FaLinkedin />
+            </a>
+        </nav>
+    );
+}

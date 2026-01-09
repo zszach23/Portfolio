@@ -4,12 +4,15 @@
 // Home page component for the application.
 // ============================================================================
 
+import SocialBar from "../../common/components/SocialBar";
 import MainLayout from "../../common/layout/MainLayout";
+import HomeHero from "./HomeHero";
 
 export default function HomePage() {
     return (
         <MainLayout>
-            <h1>Home Page</h1>
+            <HomeHero />
+            <SocialBar />
         </MainLayout>
     );
 }

@@ -1,9 +1,9 @@
 // ============================================================================
-// src/common/layout/MainLayoutTypes.ts
+// src/common/components/experiences/OverviewSection.tsx
 //
-// Type definitions for the Main Layout.
+// Overview Section Component for experiences
 // ============================================================================
 
-export interface MainLayoutProps {
-    children: React.ReactNode;
+export default function OverviewSection() {
+    
 }

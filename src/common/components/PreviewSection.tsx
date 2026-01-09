@@ -1,9 +1,9 @@
 // ============================================================================
-// src/common/layout/MainLayoutTypes.ts
+// src/common/components/PreviewSection.tsx
 //
-// Type definitions for the Main Layout.
+// Preview Section Component for Navigation Pages
 // ============================================================================
 
-export interface MainLayoutProps {
-    children: React.ReactNode;
+export default function PreviewSection() {
+    
 }
