@@ -1,15 +1,16 @@
 // ============================================================================
-// T4TMetaData.ts
+// T4TSummary.ts
 //
-// T4T metadata.
+// T4T summary.
 // ============================================================================
 
-import type { ExperienceMetaData } from "../../ExperienceMetadataTypes";
+import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
-export const T4TMetaData: ExperienceMetaData = {
+export const T4TSummary: ExperienceSummary = {
     title: "Lead XR + Backend Developer",
     description: "Tap 4 Technologies",
-    dateRange: "June 2024 - Decemeber 2025",
+    startDate: "June 2024",
+    endDate: "December 2025",
     pageLink: "/t4t",
     imageUrl: "/images/t4t-logo.png",
     company: "Tap 4 Technologies",

@@ -1,15 +1,16 @@
 // ============================================================================
-// NASA22MetaData.ts
+// NASA22Summary.ts
 //
-// NASA-22 metadata.
+// NASA-22 summary.
 // ============================================================================
 
-import type { ExperienceMetaData } from "../../ExperienceMetadataTypes";
+import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
-export const NASA22MetaData: ExperienceMetaData = {
+export const NASA22Summary: ExperienceSummary = {
     title: "Software Engineer Intern",
     description: "NASA - Kennedy Space Center",
-    dateRange: "June 2022 - August 2022",
+    startDate: "June 2022",
+    endDate: "August 2022",
     pageLink: "/nasa-22",
     imageUrl: "/images/nasa-logo.png",
     company: "NASA",

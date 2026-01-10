@@ -1,15 +1,16 @@
 // ============================================================================
-// StreamlineARMetaData.ts
+// StreamlineARSummary.ts
 //
-// Streamline AR metadata.
+// Streamline AR summary.
 // ============================================================================
 
-import type { ExperienceMetaData } from "../../ExperienceMetadataTypes";
+import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
-export const StreamlineARMetaData: ExperienceMetaData = {
+export const StreamlineARSummary: ExperienceSummary = {
     title: "Streamline AR",
     description: "Tap 4 Technologies",
-    dateRange: "July 2024 - December 2025",
+    startDate: "July 2024",
+    endDate: "December 2025",
     pageLink: "/t4t/streamline-ar",
     imageUrl: "/images/streamline-ar-logo.png",
     company: "Tap 4 Technologies",

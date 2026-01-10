@@ -1,18 +1,20 @@
 // ============================================================================
-// ExperienceArchiveTypes.ts
+// ExperienceSummaryTypes.ts
 //
-// Type definitions for the Experience Archive.
+// Type definitions for experience summary.
 // ============================================================================
 
 import type { Skill } from "../../common/types/Skill";
 import type { Topic } from "../../common/types/Topic";
 
-export interface ExperienceArchiveItem {
+export interface ExperienceSummary {
+    title: string;
+    description: string;
     startDate: string;
     endDate: string;
-    title: string;
-    company: string;
+    pageLink: string;
+    imageUrl: string;
+    company?: string;
     skills: Skill[];
     topics: Topic[];
-    link: string;
 }

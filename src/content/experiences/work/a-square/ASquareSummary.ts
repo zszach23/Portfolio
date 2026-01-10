@@ -1,16 +1,17 @@
 // ============================================================================
-// PandorasPartyBoxMetaData.ts
+// ASquareSummary.ts
 //
-// Pandora's Party Box metadata.
+// A Square Games and Simulation, LLC summary.
 // ============================================================================
 
-import type { ExperienceMetaData } from "../../ExperienceMetadataTypes";
+import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
-export const PandorasPartyBoxMetaData: ExperienceMetaData = {
-    title: "Pandora's Party Box",
+export const ASquareSummary: ExperienceSummary = {
+    title: "Unity Game Developer Intern",
     description: "A Square Games and Simulation, LLC",
-    dateRange: "August 2023 - December 2023",
-    pageLink: "/a-square/ppb",
+    startDate: "August 2023",
+    endDate: "December 2023",
+    pageLink: "/a-square",
     imageUrl: "/images/a-square-logo.png",
     company: "A Square Games and Simulation, LLC",
     skills: [

@@ -1,15 +1,16 @@
 // ============================================================================
-// ArthurMetaData.ts
+// ArthurSummary.ts
 //
-// Arthur metadata.
+// Arthur summary.
 // ============================================================================
 
-import type { ExperienceMetaData } from "../../ExperienceMetadataTypes";
+import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
-export const ArthurMetaData: ExperienceMetaData = {
+export const ArthurSummary: ExperienceSummary = {
     title: "Arthur in Mixed Reality",
     description: "Tap 4 Technologies",
-    dateRange: "June 2024 - July 2024",
+    startDate: "June 2024",
+    endDate: "July 2024",
     pageLink: "/t4t/arthur",
     imageUrl: "/images/arthur-logo.png",
     company: "Tap 4 Technologies",

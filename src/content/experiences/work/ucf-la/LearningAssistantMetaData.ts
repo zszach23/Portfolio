@@ -1,15 +1,16 @@
 // ============================================================================
-// LearningAssistantMetaData.ts
+// LearningAssistantSummary.ts
 //
-// UCF Learning Assistant metadata.
+// UCF Learning Assistant summary.
 // ============================================================================
 
-import type { ExperienceMetaData } from "../../ExperienceMetadataTypes";
+import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
-export const LearningAssistantMetaData: ExperienceMetaData = {
+export const LearningAssistantSummary: ExperienceSummary = {
     title: "Learning Assistant",
     description: "University of Central Florida",
-    dateRange: "May 2024 - August 2024",
+    startDate: "May 2024",
+    endDate: "August 2024",
     pageLink: "/ucf-la",
     imageUrl: "/images/ucf-logo.png",
     company: "University of Central Florida",
