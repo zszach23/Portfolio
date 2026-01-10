@@ -1,5 +1,5 @@
 // ============================================================================
-// src/common/components/experiences/OverviewSection.tsx
+// OverviewSection.tsx
 //
 // Overview Section Component for experiences
 // ============================================================================

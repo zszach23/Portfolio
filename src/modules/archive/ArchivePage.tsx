@@ -1,5 +1,5 @@
 // ============================================================================
-// src/modules/archive/ArchivePage.tsx
+// ArchivePage.tsx
 //
 // Archive page component for the application.
 // ============================================================================
@@ -11,6 +11,7 @@ export default function ArchivePage() {
     return (
         <MainLayout>
             <h1>Archive Page</h1>
+            <SocialBar />
         </MainLayout>
     );
 }

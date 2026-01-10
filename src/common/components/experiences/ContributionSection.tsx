@@ -1,5 +1,5 @@
 // ============================================================================
-// src/common/components/experiences/ContributionSection.tsx
+// ContributionSection.tsx
 //
 // Contribution Section Component for experiences
 // ============================================================================

@@ -1,5 +1,5 @@
 // ============================================================================
-// src/common/layout/MainLayoutTypes.ts
+// MainLayoutTypes.ts
 //
 // Type definitions for the Main Layout.
 // ============================================================================

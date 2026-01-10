@@ -1,5 +1,5 @@
 // ============================================================================
-// src/common/components/SocialBar.tsx
+// SocialBar.tsx
 //
 // Social Bar Component for displaying social media links
 // ============================================================================

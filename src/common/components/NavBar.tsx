@@ -1,5 +1,5 @@
 // ============================================================================
-// src/common/components/NavBar.tsx
+// NavBar.tsx
 //
 // Navigation bar component for the application.
 // ============================================================================
@@ -10,6 +10,7 @@ export default function NavBar() {
     return (
         <nav>
             <Link to="/">Home</Link>
+            <Link to="/archive">Archive</Link>
         </nav>
     );
 }

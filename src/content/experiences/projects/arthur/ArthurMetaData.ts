@@ -1,15 +1,25 @@
 // ============================================================================
-// src/content/experiences/projects/arthur/ArthurPreviewContent.ts
+// ArthurMetaData.ts
 //
-// Content data for the Arthur preview.
+// Arthur metadata.
 // ============================================================================
 
-import type { ExperiencePreview } from "../../ExperiencePreviewTypes";
+import type { ExperienceMetaData } from "../../ExperienceMetadataTypes";
 
-export const ArthurPreviewContent: ExperiencePreview = {
+export const ArthurMetaData: ExperienceMetaData = {
     title: "Arthur in Mixed Reality",
     description: "Tap 4 Technologies",
     dateRange: "June 2024 - July 2024",
     pageLink: "/t4t/arthur",
     imageUrl: "/images/arthur-logo.png",
+    company: "Tap 4 Technologies",
+    skills: [
+        "Unity",
+        "C#",
+        "Agile"
+    ],
+    topics: [
+        "AR/VR",
+        "Project Management"
+    ]
 };

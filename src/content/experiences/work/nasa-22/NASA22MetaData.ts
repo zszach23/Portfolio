@@ -1,15 +1,24 @@
 // ============================================================================
-// src/content/experiences/work/nasa-22/NASA22PreviewContent.ts
+// NASA22MetaData.ts
 //
-// Content data for the NASA-22 preview.
+// NASA-22 metadata.
 // ============================================================================
 
-import type { ExperiencePreview } from "../../ExperiencePreviewTypes";
+import type { ExperienceMetaData } from "../../ExperienceMetadataTypes";
 
-export const NASA22PreviewContent: ExperiencePreview = {
+export const NASA22MetaData: ExperienceMetaData = {
     title: "Software Engineer Intern",
     description: "NASA - Kennedy Space Center",
     dateRange: "June 2022 - August 2022",
     pageLink: "/nasa-22",
     imageUrl: "/images/nasa-logo.png",
+    company: "NASA",
+    skills: [
+        "Network Monitoring Tools"
+    ],
+    topics: [
+        "Software Engineering",
+        "Documentation",
+        "Quality Assurance"
+    ]
 };

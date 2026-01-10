@@ -1,15 +1,15 @@
 // ============================================================================
-// src/modules/home/FeaturedExperiencePreviewItem.tsx
+// FeaturedExperiencePreviewItem.tsx
 //
 // Featured Experience Preview Item Component for home page
 // ============================================================================
 
-import type { ExperiencePreview } from "../../content/experiences/ExperiencePreviewTypes";
+import type { ExperienceMetaData } from "../../content/experiences/ExperienceMetadataTypes";
 
-export default function FeaturedExperiencePreviewItem({ previewData }: { previewData: ExperiencePreview }) {
+export default function FeaturedExperiencePreviewItem({ previewData }: { previewData: ExperienceMetaData }) {
     return (
         <div>
-            <img src={previewData.imageUrl} alt="Preview Image" />
+            <img src={previewData.imageUrl} alt={`${previewData.title} Image`} />
             <h3>{previewData.title}</h3>
             <h4>{previewData.description}</h4>
             <h4>{previewData.dateRange}</h4>

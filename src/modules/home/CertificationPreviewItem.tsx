@@ -1,15 +1,15 @@
 // ============================================================================
-// src/modules/home/CertificationPreviewItem.tsx
+// CertificationPreviewItem.tsx
 //
 // Certification Preview Item Component for home page
 // ============================================================================
 
-import type { CertificationPreview } from "../../content/certifications/CertificationPreviewTypes";
+import type { CertificationMetaData } from "../../content/certifications/CertificationMetaDataTypes";
 
-export default function CertificationPreviewItem({ previewData }: { previewData: CertificationPreview }) {
+export default function CertificationPreviewItem({ previewData }: { previewData: CertificationMetaData }) {
     return (
         <div>
-            <img src={previewData.imageUrl} alt="Preview Image" />
+            <img src={previewData.imageUrl} alt={`${previewData.title} Image`} />
             <h3>{previewData.title}</h3>
             <p>{previewData.date}</p>
             <button>Learn More</button>

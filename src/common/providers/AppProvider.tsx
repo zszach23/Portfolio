@@ -1,5 +1,5 @@
 // ============================================================================
-// src/common/providers/AppProvider.tsx
+// AppProvider.tsx
 //
 // Application provider component for the application.
 // ============================================================================

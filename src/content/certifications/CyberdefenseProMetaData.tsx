@@ -1,15 +1,24 @@
 // ============================================================================
-// src/content/certifications/CyberdefenseProPreviewContent.tsx
+// CyberdefenseProMetaData.tsx
 //
-// Content data for the Cyberdefense Pro Certification preview.
+// Cyberdefense Pro Certification metadata.
 // ============================================================================
 
-import type { CertificationPreview } from "./CertificationPreviewTypes";
+import type { CertificationMetaData } from "./CertificationMetaDataTypes";
 import image from "../../assets/certifications/cyberdefense-pro-logo.jpg";
 
-export const CyberdefenseProPreviewContent: CertificationPreview = {
+export const CyberdefenseProMetaData: CertificationMetaData = {
     title: "TestOut Cyberdefense Pro",
     date: "December 2024",
     pageLink: "https://www.comptia.org/en-us/certifications/cyber-defense-pro/",
     imageUrl: image,
+    skills: [
+        "Network Monitoring Tools",
+        "Windows",
+        "Linux"
+    ],
+    topics: [
+        "Cybersecurity",
+        "Networking"
+    ]
 };
