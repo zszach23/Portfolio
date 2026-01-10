@@ -6,14 +6,14 @@
 
 import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import HomePage from '../../modules/home/HomePage'
-import ArchivePage from '../../modules/archive/ArchivePage'
+import ExperienceArchivePage from '../../modules/experience-archive/ExperienceArchivePage'
 
 export default function RootRouter() {
     return (
         <Router>
             <Routes>
                 <Route path="/" element={<HomePage />} />
-                <Route path="/archive" element={<ArchivePage />} />
+                <Route path="/archive" element={<ExperienceArchivePage />} />
             </Routes>
         </Router>
     );
