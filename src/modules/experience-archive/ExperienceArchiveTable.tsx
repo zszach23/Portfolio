@@ -4,41 +4,33 @@
 // Component defining the table structure for the Experience Archive page.
 // ============================================================================
 
-import type { ExperienceMetaData } from "../../content/experiences/ExperienceSummaryTypes";
+import { sortByYearDescending } from "../../common/utils/ExperienceUtils";
+import type { ExperienceSummary } from "../../content/experiences/ExperienceSummaryTypes";
 import ExperienceArchiveItem from "./ExperienceArchiveItem";
+import ExperienceArchiveTableHeaderItem from "./ExperienceArchiveTableHeaderItem";
 
-export default function ExperienceArchiveTable({ experiences }: { experiences: ExperienceMetaData[]}) {
+export default function ExperienceArchiveTable({ experiences }: { experiences: ExperienceSummary[]}) {
 
-    const sortedExperiences: ExperienceMetaData[] = sortByYearDescending(experiences);
+    const sortedExperiences: ExperienceSummary[] = sortByYearDescending(experiences);
 
     return (
-        <table>
-            <thead>
-                <tr>
-                    <th>Year</th>
-                    <th>Title</th>
-                    <th>Company</th>
-                    <th>Skills</th>
-                    <th>Link</th>
-                </tr>
-            </thead>
-            <tbody>
-                {sortedExperiences.map((experience) => (
-                    <ExperienceArchiveItem key={experience.title} data={experience} />
-                ))}
-            </tbody>    
-        </table>
+        <div>
+            <table className="w-full border-collapse">
+                <thead className="sticky top-0 z-10 border-b border-gray-500 bg-white-100/50 backdrop-blur">
+                    <tr>
+                        <ExperienceArchiveTableHeaderItem label="Year" />
+                        <ExperienceArchiveTableHeaderItem label="Title" />
+                        <ExperienceArchiveTableHeaderItem label="Company" constraints="hidden md:table-cell" />
+                        <ExperienceArchiveTableHeaderItem label="Skills" constraints="hidden lg:table-cell"/>
+                        <ExperienceArchiveTableHeaderItem label="" />
+                    </tr>
+                </thead>
+                <tbody>
+                    {sortedExperiences.map((experience) => (
+                        <ExperienceArchiveItem key={experience.pageLink} data={experience} />
+                    ))}
+                </tbody>
+            </table>
+        </div>
     )
-}
-
-function sortByYearDescending(experiences: ExperienceMetaData[]): ExperienceMetaData[] {
-    const sortedExperiences: ExperienceMetaData[] = [...experiences].sort((a, b) => {
-        if (a.endDate !== b.endDate) {
-            return b.endDate.localeCompare(a.endDate);
-        } else {
-            return a.title.localeCompare(b.title);
-        }
-    });
-
-    return sortedExperiences;
 }

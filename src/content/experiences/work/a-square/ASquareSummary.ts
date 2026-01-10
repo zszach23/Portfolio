@@ -9,8 +9,8 @@ import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 export const ASquareSummary: ExperienceSummary = {
     title: "Unity Game Developer Intern",
     description: "A Square Games and Simulation, LLC",
-    startDate: "August 2023",
-    endDate: "December 2023",
+    startDate: "08-2023",
+    endDate: "12-2023",
     pageLink: "/a-square",
     imageUrl: "/images/a-square-logo.png",
     company: "A Square Games and Simulation, LLC",

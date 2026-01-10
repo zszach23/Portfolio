@@ -9,8 +9,8 @@ import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 export const VitalsSimSummary: ExperienceSummary = {
     title: "VITALS Simulation",
     description: "Lockheed Martin x UCF",
-    startDate: "September 2024",
-    endDate: "June 2025",
+    startDate: "09-2024",
+    endDate: "06-2025",
     pageLink: "/vitals-sim",
     imageUrl: "/images/vitals-sim-logo.png",
     company: "Lockheed Martin",
