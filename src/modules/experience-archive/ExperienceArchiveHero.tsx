@@ -4,7 +4,7 @@
 // Hero Component for the Experience Archive Page.
 // ============================================================================
 
-import BackArrow from "../../common/components/BackArrow";
+import BackArrow from "../../common/components/visuals/BackArrow";
 
 export default function ExperienceArchiveHero() {
     return (

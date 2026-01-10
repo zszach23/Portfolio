@@ -4,6 +4,8 @@
 // Component defining an item/row in the Experience Archive page.
 // ============================================================================
 
+import Chevron from "../../common/components/visuals/Chevron";
+import SkillTag from "../../common/components/visuals/SkillTag";
 import { extractYear } from "../../common/utils/DateUtils";
 import type { ExperienceSummary } from "../../content/experiences/ExperienceSummaryTypes";
 
@@ -23,17 +25,13 @@ export default function ExperienceArchiveItem({ data }: { data: ExperienceSummar
                 <ul className="flex flex-wrap gap-x-2 gap-y-1">
                     {data.skills.map((skill, index) => (
                         <li key={index}>
-                            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
-                                {skill}
-                            </span>
+                            <SkillTag skill={skill} />
                         </li>
                     ))}
                 </ul>
             </td>
             <td className="py-5 pl-4 align-top">
-                <svg className="w-5 h-5 text-gray-400 group-hover:text-purple-700 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
+                <Chevron />
             </td>
         </tr>
     )
