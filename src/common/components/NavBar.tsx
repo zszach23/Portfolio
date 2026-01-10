@@ -10,9 +10,6 @@ export default function NavBar() {
     return (
         <nav>
             <Link to="/">Home</Link>
-            <Link to="/professional-experiences">Professional Experiences</Link>
-            <Link to="/project-experiences">Projects</Link>
-            <Link to="/certifications">Certifications</Link>
         </nav>
     );
 }

@@ -1,15 +1,16 @@
 // ============================================================================
-// src/modules/professional-experiences/ProfessionalExperiencesPage.tsx
+// src/modules/archive/ArchivePage.tsx
 //
-// Professional experiences page component for the application.
+// Archive page component for the application.
 // ============================================================================
 
+import SocialBar from "../../common/components/SocialBar";
 import MainLayout from "../../common/layout/MainLayout";
 
-export default function ProfessionalExperiencesPage() {
+export default function ArchivePage() {
     return (
         <MainLayout>
-            <h1>Professional Experiences Page</h1>
+            <h1>Archive Page</h1>
         </MainLayout>
     );
 }
