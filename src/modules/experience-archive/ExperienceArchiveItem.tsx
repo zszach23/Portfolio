@@ -4,7 +4,7 @@
 // Component defining an item/row in the Experience Archive page.
 // ============================================================================
 
-import { useNavigate } from "react-router-dom";
+import { useNavigate, type NavigateFunction } from "react-router-dom";
 import Chevron from "../../common/components/visuals/Chevron";
 import SkillTag from "../../common/components/visuals/SkillTag";
 import { extractYear } from "../../common/utils/DateUtils";
@@ -12,7 +12,7 @@ import type { ExperienceSummary } from "../../content/experiences/ExperienceSumm
 
 export default function ExperienceArchiveItem({ data }: { data: ExperienceSummary}) {
 
-    const navigate = useNavigate();
+    const navigate: NavigateFunction = useNavigate();
 
     return (
         <tr className="group border-b border-gray-200 hover:bg-purple-50 transition-colors cursor-pointer shadow-sm hover:shadow-md" onClick={() => navigate(data.pageLink)}>
