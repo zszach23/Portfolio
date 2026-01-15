@@ -20,7 +20,7 @@ export default function ExperienceArchiveTable({ experiences }: { experiences: E
                     <tr>
                         <ExperienceArchiveTableHeaderItem label="Year" />
                         <ExperienceArchiveTableHeaderItem label="Title" />
-                        <ExperienceArchiveTableHeaderItem label="Company" constraints="hidden md:table-cell" />
+                        <ExperienceArchiveTableHeaderItem label="Company" />
                         <ExperienceArchiveTableHeaderItem label="Skills" constraints="hidden lg:table-cell"/>
                         <ExperienceArchiveTableHeaderItem label="" />
                     </tr>

@@ -22,7 +22,7 @@ export default function ExperienceArchiveItem({ data }: { data: ExperienceSummar
             <td className="py-5 pr-4 text-sm text-gray-600 align-top">
                 {data.title}
             </td>
-            <td className="py-5 pr-4 text-sm text-gray-600 align-top hidden md:table-cell">
+            <td className="py-5 pr-4 text-sm text-gray-600 align-top">
                 {data.company || '-'}
             </td>
             <td className="py-5 pr-4 align-top hidden lg:table-cell">
