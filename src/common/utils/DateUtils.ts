@@ -28,3 +28,9 @@ export function compareDatesDesc(dateA: string, dateB: string): number {
 
     return dB.getTime() - dA.getTime();
 }
+
+export function formatDateRange(startDate: string, endDate: string): string {
+    const start: string = extractMonthYear(startDate);
+    const end: string = endDate.toLowerCase() === 'present' ? 'Present' : extractMonthYear(endDate);
+    return `${start} - ${end}`;
+}

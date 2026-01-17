@@ -8,7 +8,7 @@ import { FaEnvelope, FaFilePdf, FaSquareGithub, FaLinkedin  } from "react-icons/
 
 export default function SocialBar() {
     return (
-        <nav aria-label="Social Media Links">
+        <ul className="mt-8 flex items-center gap-5">
             <a href="mailto:zszach23@gmail.com" aria-label="Email">
                 <FaEnvelope />
             </a>
@@ -21,6 +21,6 @@ export default function SocialBar() {
             <a href="https://www.linkedin.com/in/zachary-sally/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <FaLinkedin />
             </a>
-        </nav>
+        </ul>
     );
 }

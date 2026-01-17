@@ -30,3 +30,5 @@ export type Skill =
     | "Windows"
     | "Linux"
     | "Microsoft Office"
+    | "Documentation"
+    | "Jira"
