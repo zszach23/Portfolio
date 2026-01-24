@@ -7,6 +7,7 @@
 import HomeNavigationItem from "./HomeNavigationItem";
 
 export default function HomeNavigation() {
+
     return (
         <nav className="nav hidden lg:block mt-16" aria-label="In-page jump links">
             <ul className="w-max">

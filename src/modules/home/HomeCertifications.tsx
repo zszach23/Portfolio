@@ -1,9 +1,6 @@
 // ============================================================================
-// MainLayoutTypes.ts
+// HomeCertifications.tsx
 //
-// Type definitions for the Main Layout.
+// Certifications component for the home page.
 // ============================================================================
 
-export interface MainLayoutProps {
-    children: React.ReactNode;
-}

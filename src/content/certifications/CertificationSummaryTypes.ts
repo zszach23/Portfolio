@@ -1,13 +1,13 @@
 // ============================================================================
-// CertificationMetaDataTypes.ts
+// CertificationSummaryTypes.ts
 //
-// Type definitions for certification metadata.
+// Type definitions for certification summary content.
 // ============================================================================
 
 import type { Skill } from "../../common/types/Skill";
 import type { Topic } from "../../common/types/Topic";
 
-export interface CertificationMetaData {
+export interface CertificationSummary {
     title: string;
     date: string;
     pageLink: string;

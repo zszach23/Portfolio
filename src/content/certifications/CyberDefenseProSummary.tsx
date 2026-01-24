@@ -1,13 +1,13 @@
 // ============================================================================
-// CyberdefenseProMetaData.tsx
+// CyberDefenseProSummary.tsx
 //
-// Cyberdefense Pro Certification metadata.
+// Cyberdefense Pro Certification summary.
 // ============================================================================
 
-import type { CertificationMetaData } from "./CertificationMetaDataTypes";
+import type { CertificationSummary } from "./CertificationSummaryTypes";
 import image from "../../assets/certifications/cyberdefense-pro-logo.jpg";
 
-export const CyberdefenseProMetaData: CertificationMetaData = {
+export const CyberdefenseProSummary: CertificationSummary = {
     title: "TestOut Cyberdefense Pro",
     date: "December 2024",
     pageLink: "https://www.comptia.org/en-us/certifications/cyber-defense-pro/",

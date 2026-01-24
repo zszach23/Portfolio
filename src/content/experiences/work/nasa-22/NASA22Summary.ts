@@ -12,7 +12,7 @@ export const NASA22Summary: ExperienceSummary = {
     startDate: "06-2022",
     endDate: "08-2022",
     pageLink: "/nasa-22",
-    imageUrl: "/images/nasa-logo.png",
+    imageUrl: `${import.meta.env.BASE_URL}assets/images/work/nasa-logo.jpg`,
     company: "NASA",
     skills: [
         "Network Monitoring Tools"
