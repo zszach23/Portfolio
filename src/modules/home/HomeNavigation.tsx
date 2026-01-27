@@ -14,6 +14,7 @@ export default function HomeNavigation() {
                 <HomeNavigationItem href="#about" label="About" />
                 <HomeNavigationItem href="#professional-experiences" label="Professional Experiences" />
                 <HomeNavigationItem href="#projects" label="Projects" />
+                <HomeNavigationItem href="#certifications" label="Certifications" />
             </ul>
         </nav>
     );

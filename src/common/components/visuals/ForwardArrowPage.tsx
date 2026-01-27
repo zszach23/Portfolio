@@ -1,12 +1,12 @@
 // ============================================================================
 // ForwardArrow.tsx
 //
-// Animated Forward Arrow
+// Animated Forward Arrow to link to a page
 // ============================================================================
 
 import { Link } from "react-router-dom";
 
-export default function ForwardArrow({label, link, textColor, hoverColor}: {label: string, link: string, textColor: string, hoverColor: string}) {
+export default function ForwardArrowPage({label, link, textColor, hoverColor}: {label: string, link: string, textColor: string, hoverColor: string}) {
     return (
         <Link to={link} className={`group mb-2 inline-flex items-center font-semibold ${textColor} ${hoverColor} transition-colors`}>
             {label}

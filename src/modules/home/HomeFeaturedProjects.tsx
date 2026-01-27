@@ -4,7 +4,7 @@
 // Featured Projects component for the home page.
 // ============================================================================
 
-import ForwardArrow from "../../common/components/visuals/ForwardArrow";
+import ForwardArrowPage from "../../common/components/visuals/ForwardArrowPage";
 import type { ExperienceSummary } from "../../content/experiences/ExperienceSummaryTypes";
 import { ArthurSummary } from "../../content/experiences/projects/arthur/ArthurSummary";
 import { StreamlineARSummary } from "../../content/experiences/projects/streamline-ar/StreamlineARSummary";
@@ -32,7 +32,7 @@ export default function HomeFeaturedProjects() {
                 ))}
             </div>
             <div className="pl-7 mb-8">
-                <ForwardArrow label="View Experience Archive" link="/archive" textColor="text-purple-700" hoverColor="hover:text-purple-900" />
+                <ForwardArrowPage label="View Experience Archive" link="/archive" textColor="text-purple-700" hoverColor="hover:text-purple-900" />
             </div>
         </section>
     );

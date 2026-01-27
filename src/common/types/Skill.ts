@@ -32,3 +32,4 @@ export type Skill =
     | "Microsoft Office"
     | "Documentation"
     | "Jira"
+    | "Project Management"

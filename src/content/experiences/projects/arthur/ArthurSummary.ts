@@ -12,7 +12,7 @@ export const ArthurSummary: ExperienceSummary = {
     startDate: "06-2024",
     endDate: "07-2024",
     pageLink: "/t4t/arthur",
-    imageUrl: "/images/arthur-logo.png",
+    imageUrl: `${import.meta.env.BASE_URL}assets/images/projects/arthur-logo.png`,
     company: "Tap 4 Technologies",
     skills: [
         "Unity",

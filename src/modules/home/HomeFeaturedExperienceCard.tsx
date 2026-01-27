@@ -13,7 +13,7 @@ import type { ExperienceSummary } from "../../content/experiences/ExperienceSumm
 export default function HomeFeaturedExperienceCard({ experience }: { experience: ExperienceSummary}) {
     return (
         <Link to={experience.pageLink} className="group block mb-12 p-6 rounded-lg transition-all hover:bg-purple-50 hover:shadow-md">
-            <div className="flex gap-4">
+            <div className="flex gap-4 items-center">
                 <div className="w-40 h-40 flex-shrink-0 rounded-lg overflow-hidden">
                     {experience.imageUrl && (
                         <img src={experience.imageUrl} alt={experience.title} className="w-full h-full object-cover"

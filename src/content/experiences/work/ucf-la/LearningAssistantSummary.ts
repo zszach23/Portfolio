@@ -15,7 +15,8 @@ export const LearningAssistantSummary: ExperienceSummary = {
     imageUrl: `${import.meta.env.BASE_URL}assets/images/work/ucf-logo.png`,
     company: "University of Central Florida",
     skills: [
-        "Java"
+        "Java",
+        "Documentation"
     ],
     topics: [
         "Documentation",

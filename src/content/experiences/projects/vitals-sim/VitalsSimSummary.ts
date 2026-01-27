@@ -12,7 +12,7 @@ export const VitalsSimSummary: ExperienceSummary = {
     startDate: "09-2024",
     endDate: "06-2025",
     pageLink: "/vitals-sim",
-    imageUrl: "/images/vitals-sim-logo.png",
+    imageUrl: `${import.meta.env.BASE_URL}assets/images/projects/vitals-sim-logo.png`,
     company: "Lockheed Martin",
     skills: [
         "Unreal Engine",

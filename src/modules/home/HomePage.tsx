@@ -6,6 +6,7 @@
 
 import SocialBar from "../../common/components/SocialBar";
 import HomeAbout from "./HomeAbout";
+import HomeCertifications from "./HomeCertifications";
 import HomeFeaturedProfessionalExperiences from "./HomeFeaturedProfessionalExperiences";
 import HomeFeaturedProjects from "./HomeFeaturedProjects";
 import HomeHero from "./HomeHero";
@@ -23,6 +24,7 @@ export default function HomePage() {
                 <HomeAbout />
                 <HomeFeaturedProfessionalExperiences />
                 <HomeFeaturedProjects />
+                <HomeCertifications />
             </div>
         </div>
     );

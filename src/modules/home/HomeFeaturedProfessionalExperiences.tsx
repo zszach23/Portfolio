@@ -12,7 +12,7 @@ import { ASquareSummary } from "../../content/experiences/work/a-square/ASquareS
 import { NASA23Summary } from "../../content/experiences/work/nasa-23/NASA23Summary";
 import { NASA22Summary } from "../../content/experiences/work/nasa-22/NASA22Summary";
 import { sortByYearDescending } from "../../common/utils/ExperienceUtils";
-import ForwardArrow from "../../common/components/visuals/ForwardArrow";
+import ForwardArrowDocument from "../../common/components/visuals/ForwardArrowDocument";
 
 export default function HomeFeaturedProfessionalExperiences() {
     const featuredExperiences: ExperienceSummary[] = [
@@ -36,7 +36,7 @@ export default function HomeFeaturedProfessionalExperiences() {
                 ))}
             </div>
             <div className="pl-7 mb-8">
-                <ForwardArrow label="View Resume" link={`${import.meta.env.BASE_URL}assets/Zachary_Sally_Resume.pdf`} textColor="text-purple-700" hoverColor="hover:text-purple-900" />
+                <ForwardArrowDocument label="View Resume" link={`${import.meta.env.BASE_URL}assets/Zachary_Sally_Resume.pdf`} textColor="text-purple-700" hoverColor="hover:text-purple-900" />
             </div>
         </section>
     )

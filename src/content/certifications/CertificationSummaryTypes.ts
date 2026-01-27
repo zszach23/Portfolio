@@ -10,6 +10,7 @@ import type { Topic } from "../../common/types/Topic";
 export interface CertificationSummary {
     title: string;
     date: string;
+    description: string;
     pageLink: string;
     imageUrl: string;
     skills: Skill[];
