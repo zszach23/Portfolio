@@ -12,7 +12,7 @@ export const PandorasPartyBoxSummary: ExperienceSummary = {
     startDate: "08-2023",
     endDate: "12-2023",
     pageLink: "/a-square/ppb",
-    imageUrl: `${import.meta.env.BASE_URL}assets/images/projects/ppb-banner.png`,
+    imageUrl: `${import.meta.env.BASE_URL}assets/images/projects/ppb/ppb-banner.png`,
     company: "A Square Games and Simulation, LLC",
     skills: [
         "Unity",

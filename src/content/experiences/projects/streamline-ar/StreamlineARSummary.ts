@@ -12,7 +12,7 @@ export const StreamlineARSummary: ExperienceSummary = {
     startDate: "07-2024",
     endDate: "12-2025",
     pageLink: "/t4t/streamline-ar",
-    imageUrl: `${import.meta.env.BASE_URL}assets/images/projects/streamline-ar-logo.png`,
+    imageUrl: `${import.meta.env.BASE_URL}assets/images/projects/streamline-ar/streamline-ar-logo.png`,
     company: "Tap 4 Technologies",
     skills: [
         "Unity",

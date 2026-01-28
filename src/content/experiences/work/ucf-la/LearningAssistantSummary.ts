@@ -12,7 +12,7 @@ export const LearningAssistantSummary: ExperienceSummary = {
     startDate: "05-2024",
     endDate: "08-2024",
     pageLink: "/ucf-la",
-    imageUrl: `${import.meta.env.BASE_URL}assets/images/work/ucf-logo.png`,
+    imageUrl: `${import.meta.env.BASE_URL}assets/images/work/ucf-la/ucf-logo.png`,
     company: "University of Central Florida",
     skills: [
         "Java",

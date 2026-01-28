@@ -12,7 +12,7 @@ export const T4TSummary: ExperienceSummary = {
     startDate: "06-2024",
     endDate: "12-2025",
     pageLink: "/t4t",
-    imageUrl: `${import.meta.env.BASE_URL}assets/images/work/t4t-logo.png`,
+    imageUrl: `${import.meta.env.BASE_URL}assets/images/work/t4t/t4t-logo.png`,
     company: "Tap 4 Technologies",
     skills: [
         "Unity",
