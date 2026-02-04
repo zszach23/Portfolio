@@ -5,11 +5,12 @@
 // ============================================================================
 
 import type { Overview } from "./ExperiencePageTypes";
+import "./Experience.css";
 
 export default function ExperienceOverviewSection({ overview }: { overview: Overview}) {
     return (
-        <section className="">
-            <h2 className="">
+        <section className="section">
+            <h2 className="sectionTitle">
                 Overview
             </h2>
             {overview.paragraphs.map((paragraph, index) => (

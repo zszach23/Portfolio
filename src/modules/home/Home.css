@@ -1,0 +1,13 @@
+/* ============================================================================
+// Home.css
+//
+// Styles for the Home module
+// ============================================================================ */
+
+.section {
+    @apply py-16 px-4 sm:px-6 lg:px-8 bg-white;
+}
+
+.sectionHeader {
+    @apply text-2xl font-semibold text-gray-900 mb-4;
+}

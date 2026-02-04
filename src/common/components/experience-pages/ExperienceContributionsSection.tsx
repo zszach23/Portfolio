@@ -5,11 +5,12 @@
 // ============================================================================
 
 import type { Contributions } from "./ExperiencePageTypes";
+import "./Experience.css";
 
 export default function ExperienceContributionsSection({ contributions }: { contributions: Contributions}) {
     return (
-        <section className="">
-            <h2 className="">
+        <section className="section">
+            <h2 className="sectionTitle">
                 Contributions
             </h2>
             <div className="">
@@ -21,9 +22,9 @@ export default function ExperienceContributionsSection({ contributions }: { cont
             </div>
             <div className="">
                 {contributions.features.map((feature, index) => (
-                    <div key={index} className="">
+                    <div key={index} className="flex flex-col md:flex-row gap-1 mb-8 items-center">
                         {feature.media && (
-                            <div className="">
+                            <div className="md:w-1/2 flex-shrink-0">
                                 {feature.media.type === "image" ? (
                                     <img src={feature.media.url} alt={feature.media.alt || ""} className="" />
                                 ) : (
@@ -31,17 +32,19 @@ export default function ExperienceContributionsSection({ contributions }: { cont
                                 )}
                             </div>
                         )}
-                        <h3 className="">{feature.title}</h3>
-                        <p className="">{feature.details}</p>
-                        {feature.bulletPoints && feature.bulletPoints.length > 0 && (
-                            <ul className="">
-                                {feature.bulletPoints.map((point, bpIndex) => (
-                                    <li key={bpIndex} className="">
-                                        {point}
-                                    </li>
-                                ))}
-                            </ul>
-                        )}
+                        <div className="flex-1">
+                            <h3 className="contributionTitle">{feature.title}</h3>
+                            <p className="">{feature.details}</p>
+                            {feature.bulletPoints && feature.bulletPoints.length > 0 && (
+                                <ul>
+                                    {feature.bulletPoints.map((point, bpIndex) => (
+                                        <li key={bpIndex}>
+                                            {point}
+                                        </li>
+                                    ))}
+                                </ul>
+                            )}
+                        </div>
                     </div>
                 ))}
             </div>

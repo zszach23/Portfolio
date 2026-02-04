@@ -9,6 +9,7 @@ import type { CertificationSummary } from "../../content/certifications/Certific
 import { CyberdefenseProSummary } from "../../content/certifications/CyberDefenseProSummary";
 import { ModelSimSummary } from "../../content/certifications/ModelSimSummary";
 import HomeCertificationCard from "./HomeCertificationCard";
+import "./Home.css";
 
 export default function HomeCertifications() {
 
@@ -18,9 +19,9 @@ export default function HomeCertifications() {
     ]
 
     return (
-        <section id="certifications" className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <section id="certifications" className="section">
             <div className="max-w-7xl mx-auto">
-                <h2 className="text-2xl font-semibold text-gray-900 mb-8">Certifications</h2>
+                <h2 className="sectionHeader">Certifications</h2>
                 <div>
                     {certifications.map((certification) => (
                         <HomeCertificationCard

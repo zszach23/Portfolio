@@ -7,7 +7,7 @@
 import type { ExperiencePageData } from "../../../../common/components/experience-pages/ExperiencePageTypes";
 
 export const CardsAndCastlesContent: ExperiencePageData = {
-    bannerImageUrl: `${import.meta.env.BASE_URL}assets/images/projects/cc/cc-banner.jpg`,
+    bannerImageUrl: `${import.meta.env.BASE_URL}assets/images/projects/cc/cc-banner.png`,
     overview: {
         paragraphs: [
             "Cards & Castles is a Multiplayer VR Real-Time Strategy game where players use card decks to summon magical creatures and spells to attack and defend against mythical enemy forces.",

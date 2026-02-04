@@ -13,6 +13,7 @@ import { NASA23Summary } from "../../content/experiences/work/nasa-23/NASA23Summ
 import { NASA22Summary } from "../../content/experiences/work/nasa-22/NASA22Summary";
 import { sortByYearDescending } from "../../common/utils/ExperienceUtils";
 import ForwardArrowDocument from "../../common/components/visuals/ForwardArrowDocument";
+import "./Home.css";
 
 export default function HomeFeaturedProfessionalExperiences() {
     const featuredExperiences: ExperienceSummary[] = [
@@ -25,8 +26,8 @@ export default function HomeFeaturedProfessionalExperiences() {
     const sortedExperiences = sortByYearDescending(featuredExperiences);
 
     return (
-        <section id="professional-experiences">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-8">Professional Experiences</h2>
+        <section id="professional-experiences" className="section">
+            <h2 className="sectionHeader">Professional Experiences</h2>
             <div>
                 {sortedExperiences.map((experience) => (
                     <HomeFeaturedExperienceCard

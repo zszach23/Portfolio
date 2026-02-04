@@ -1,0 +1,45 @@
+/* ============================================================================
+// Experience.css
+//
+// Styles for experience pages
+// ============================================================================ */
+
+.pageBannerImage {
+    @apply m-2 w-full min-h-4 object-fill rounded-lg;
+}
+
+.pageTitle {
+    @apply text-4xl font-bold text-purple-700 mx-4;
+}
+
+.pageDescription {
+    @apply text-xl font-bold text-gray-700 mx-4;
+}
+
+.pageDateRange {
+    @apply text-xl font-bold text-gray-600 mx-4;
+}
+
+.section { 
+    @apply my-8 mx-4;
+}
+
+.sectionTitle {
+    @apply text-2xl font-semibold text-gray-900 mb-4 underline-offset-1;
+}
+
+.contributionTitle {
+    @apply font-bold text-purple-700 text-lg;
+}
+
+.challengeTitle {
+    @apply font-bold text-purple-700 text-lg;
+}
+
+.challengeLabel {
+    @apply font-semibold;
+}
+
+.challengeItem {
+    @apply mb-4;
+}

@@ -7,7 +7,7 @@
 import type { ExperiencePageData } from "../../../../common/components/experience-pages/ExperiencePageTypes";
 
 export const NASA22Content: ExperiencePageData = {
-    bannerImageUrl: `${import.meta.env.BASE_URL}assets/experiences/nasa-22/banner.jpg`,
+    bannerImageUrl: `${import.meta.env.BASE_URL}assets/images/work/nasa/nasa-banner.jpg`,
     overview: {
         paragraphs: [
             "During the Summer of 2022, I had the opportunity to come work for NASA at Kennedy Space Center as a software engineer intern. I worked with the team responsible for handling communication between the Launch Control System and the Space Launch System."

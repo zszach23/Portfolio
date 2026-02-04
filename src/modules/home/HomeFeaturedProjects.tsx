@@ -10,6 +10,7 @@ import { ArthurSummary } from "../../content/experiences/projects/arthur/ArthurS
 import { StreamlineARSummary } from "../../content/experiences/projects/streamline-ar/StreamlineARSummary";
 import { VitalsSimSummary } from "../../content/experiences/projects/vitals-sim/VitalsSimSummary";
 import HomeFeaturedExperienceCard from "./HomeFeaturedExperienceCard";
+import "./Home.css";
 
 
 
@@ -22,8 +23,8 @@ export default function HomeFeaturedProjects() {
     ]
 
     return (
-        <section id="projects">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-8">Projects</h2>
+        <section id="projects" className="section">
+            <h2 className="sectionHeader">Featured Projects</h2>
             <div>
                 {featuredProjects.map((project) => (
                     <HomeFeaturedExperienceCard 
