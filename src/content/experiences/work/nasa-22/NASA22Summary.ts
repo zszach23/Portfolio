@@ -8,14 +8,15 @@ import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
 export const NASA22Summary: ExperienceSummary = {
     title: "Software Engineer Intern",
-    description: "NASA - Kennedy Space Center",
+    description: "Produced documentation for a packet analyzer used to facilitate communication between the Launch Control System and the Space Launch System.",
     startDate: "06-2022",
     endDate: "08-2022",
     pageLink: "/nasa-22",
     imageUrl: `${import.meta.env.BASE_URL}assets/images/work/nasa/nasa-logo.jpg`,
     company: "NASA",
     skills: [
-        "Network Monitoring Tools"
+        "Network Monitoring Tools",
+        "Documentation"
     ],
     topics: [
         "Software Engineering",

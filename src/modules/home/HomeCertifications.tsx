@@ -4,7 +4,6 @@
 // Certifications component for the home page.
 // ============================================================================
 
-import ForwardArrowPage from "../../common/components/visuals/ForwardArrowPage";
 import type { CertificationSummary } from "../../content/certifications/CertificationSummaryTypes";
 import { CyberdefenseProSummary } from "../../content/certifications/CyberDefenseProSummary";
 import { ModelSimSummary } from "../../content/certifications/ModelSimSummary";
@@ -30,9 +29,6 @@ export default function HomeCertifications() {
                         />
                     ))}
                 </div>
-            </div>
-            <div className="pl-7 mb-8">
-                <ForwardArrowPage label="View All Certifications" link="/certifications" textColor="text-purple-700" hoverColor="hover:text-purple-900" />
             </div>
         </section>
     )
