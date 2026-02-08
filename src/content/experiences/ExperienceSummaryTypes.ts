@@ -15,6 +15,8 @@ export interface ExperienceSummary {
     pageLink: string;
     imageUrl: string;
     company?: string;
+    externalLink?: string;
+    externalLinkText?: string;
     skills: Skill[];
     topics: Topic[];
 }

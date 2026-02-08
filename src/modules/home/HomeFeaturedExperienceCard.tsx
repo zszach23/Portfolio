@@ -25,7 +25,7 @@ export default function HomeFeaturedExperienceCard({ experience }: { experience:
                     <h3 className="font-semibold text-gray-900 group-hover:text-purple-700 transition-colors inline-flex items-center">
                         {experience.title}
                         <span className="ml-1 transition-transform group-hover:translate-x-1 align-middle">
-                            <Chevron />
+                            <Chevron color="text-gray-400" hoverColor="text-purple-700" />
                         </span>
                     </h3>
                     

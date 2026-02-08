@@ -35,7 +35,7 @@ export default function ExperienceArchiveItem({ data }: { data: ExperienceSummar
                 </ul>
             </td>
             <td className="py-5 pl-4 align-top">
-                <Chevron />
+                <Chevron color="text-gray-400" hoverColor="text-purple-700" />
             </td>
         </tr>
     )

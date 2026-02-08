@@ -5,7 +5,7 @@
 // ============================================================================ */
 
 .section {
-    @apply py-16 px-4 sm:px-6 lg:px-8 bg-white;
+    @apply pt-2 pb-16 px-4 sm:px-6 lg:px-8 bg-white;
 }
 
 .sectionHeader {

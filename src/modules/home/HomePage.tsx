@@ -20,7 +20,7 @@ export default function HomePage() {
                 <HomeNavigation />
                 <SocialBar />
             </div>
-            <div className="lg:w-1/2 lg:flex-col lg:justify-between lg:py-24 mx-5">
+            <div className="lg:w-1/2 lg:flex-col lg:justify-between lg:py-16 mx-5">
                 <HomeAbout />
                 <HomeFeaturedProfessionalExperiences />
                 <HomeFeaturedProjects />

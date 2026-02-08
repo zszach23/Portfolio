@@ -80,15 +80,6 @@ export const CardsAndCastlesContent: ExperiencePageData = {
     },
     challenges: [
         {
-            title: "Detection System Design",
-            systemOverview: "During the early stages of development, we used a method for checking for targets within a unit's detection range. This method would filter for units within a certain radius, under the Character layer, and team membership. This method would return the first enemy in the list that fit those criteria.",
-            problemStatement: "This approach wasn't realistic in that units would be able to target enemies that were behind walls. This was especially problematic because ranged units would start firing projectiles at an enemy behind a wall. Also, the method in question would pick the first enemy out of a list of other units, not necessarily the closest enemy.",
-            solution: [
-                "I integrated a detection system to help make AI behaviors more realistic. Within the check method, I put in a LineCast between the unit and its possible target's transform to detect whether any terrain is obstructing their line of view. If there was some obstruction between the two, the method would move on to the next unit it found. It would iterate through all units within the detection sphere, keeping track of the closest one that is not obstructed from view. At the end, if there was a target that met all the criteria, it would be targeted by the unit."
-            ],
-            whatILearned: "The easiest solution is not always the most realistic/immersive one. Simple additions such as this create a more immersive experience, even if a player may never consciously notice it."
-        },
-        {
             title: "Move and Mow Down State",
             systemOverview: "For the Beasts of the Black Forest and Desert of the Damned levels, we needed enemy AI to pursue and attack players' Castle Keep while attacking any of the players' forces it comes across. So, I developed a \"Move and Mow Down\" state where enemy units would move towards their objective and mow down any adversaries in their path. The early version of this state only had the objective as its destination in the pathfinding system.",
             problemStatement: "The early version of this state worked when the distances to the objective were small. However, with our large scale maps, we quickly noticed that the AI would jitter when trying to go to an objective on the other side of the map.",

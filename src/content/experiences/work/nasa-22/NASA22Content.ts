@@ -37,14 +37,6 @@ export const NASA22Content: ExperiencePageData = {
                 "To overcome this challenge, I iteratively collaborated with my technical points of contact. I began by outlining any concepts that I thought would apply to each guide, the discussed with my team to refine the outline and determine which topics to focus on. I took this information and slowly incorporated more specific information, and repeated this process down to the final product.",
             ],
             whatILearned: "This process helped me grow by giving me experience with technical communication and project management in a real-world application."
-        },
-        {
-            title: "Large Learning Curve + Lack of Documentation",
-            problemStatement: "Since my partner and I were the ones creating these centralized documents, we didn't have any centralized source of information to learn from. There were a lot of different resources that were scattered around. This made the learning curve steep and caused a lot of confusion.",
-            solution: [
-                "To overcome this challenge, I had to analyze all of the various resources I was provided. I used previous interns' documentation to get a better grasp of how the dissectors work in the grand scope of LCS. I deciphered source doe to gain more technical knowledge of the dissectors. I asked MANY questions to my technical points of contact and closely collaborated with my partner about our research."
-            ],
-            whatILearned: "This process was very challenging, but it helped me learn how to find answers on my own. In the real world, I won't have my hand held when working on projects. I have to be proactive."
         }
     ]
 }
