@@ -12,6 +12,7 @@ import CardsAndCastlesPage from '../../modules/cards-and-castles-experience/Card
 import ScrollToTop from '../components/ScrollToTop';
 import NASA23Page from '../../modules/nasa23-experience/NASA23Page';
 import ASquarePage from '../../modules/a-square-experience/ASquarePage';
+import PandorasPartyBoxPage from '../../modules/ppb-experience/PandorasPartyBoxPage';
 
 export default function RootRouter() {
     return (
@@ -28,6 +29,7 @@ export default function RootRouter() {
                 <Route path="/nasa-22" element={<NASA22Page />} />
 
                 {/* Project Experience Pages */}
+                <Route path="/a-square/ppb" element={<PandorasPartyBoxPage />} />
                 <Route path="/cards-and-castles" element={<CardsAndCastlesPage />} />
             </Routes>
         </Router>
