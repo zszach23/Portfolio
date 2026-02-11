@@ -15,6 +15,7 @@ import ASquarePage from '../../modules/a-square-experience/ASquarePage';
 import PandorasPartyBoxPage from '../../modules/ppb-experience/PandorasPartyBoxPage';
 import ArthurPage from '../../modules/arthur-experience/ArthurPage';
 import T4TPage from '../../modules/t4t-experience/T4TPage';
+import SciFiWarehouseVRPage from '../../modules/sci-fi-warehouse-vr-experience/SciFiWarehouseVRPage';
 
 export default function RootRouter() {
     return (
@@ -33,6 +34,7 @@ export default function RootRouter() {
 
                 {/* Project Experience Pages */}
                 <Route path="/t4t/arthur" element={<ArthurPage />} />
+                <Route path="/sci-fi-warehouse-vr" element={<SciFiWarehouseVRPage />} />
                 <Route path="/a-square/ppb" element={<PandorasPartyBoxPage />} />
                 <Route path="/cards-and-castles" element={<CardsAndCastlesPage />} />
             </Routes>

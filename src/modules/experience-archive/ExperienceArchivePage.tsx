@@ -8,6 +8,7 @@ import type { ExperienceSummary } from "../../content/experiences/ExperienceSumm
 import { ArthurSummary } from "../../content/experiences/projects/arthur/ArthurSummary";
 import { CardsAndCastlesSummary } from "../../content/experiences/projects/cc/CardsAndCastlesSummary";
 import { PandorasPartyBoxSummary } from "../../content/experiences/projects/ppb/PandorasPartyBoxSummary";
+import { SciFiWarehouseVRSummary } from "../../content/experiences/projects/sci-fi-warehouse-vr/SciFiWarehouseVRSummary";
 import { NASA22Summary } from "../../content/experiences/work/nasa-22/NASA22Summary";
 import { NASA23Summary } from "../../content/experiences/work/nasa-23/NASA23Summary";
 import ExperienceArchiveFooter from "./ExperienceArchiveFooter";
@@ -20,6 +21,7 @@ export default function ExperienceArchivePage() {
         NASA23Summary,
         NASA22Summary,
         ArthurSummary,
+        SciFiWarehouseVRSummary,
         PandorasPartyBoxSummary,
         CardsAndCastlesSummary
     ]
