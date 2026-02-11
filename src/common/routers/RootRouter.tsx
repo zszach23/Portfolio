@@ -9,10 +9,12 @@ import HomePage from '../../modules/home/HomePage'
 import ExperienceArchivePage from '../../modules/experience-archive/ExperienceArchivePage'
 import NASA22Page from '../../modules/nasa22-experience/NASA22Page';
 import CardsAndCastlesPage from '../../modules/cards-and-castles-experience/CardsAndCastlesPage';
+import ScrollToTop from '../components/ScrollToTop';
 
 export default function RootRouter() {
     return (
         <Router>
+            <ScrollToTop />
             <Routes>
                 {/* Main Pages */}
                 <Route path="/" element={<HomePage />} />
