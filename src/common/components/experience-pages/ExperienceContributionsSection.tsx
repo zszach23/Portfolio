@@ -24,9 +24,9 @@ export default function ExperienceContributionsSection({ contributions }: { cont
                 {contributions.features.map((feature, index) => (
                     <div key={index} className="flex flex-col md:flex-row gap-1 mb-8 items-center">
                         {feature.media && (
-                            <div className="md:w-1/2 flex-shrink-0">
+                            <div className="md:w-1/2">
                                 {feature.media.type === "image" ? (
-                                    <img src={feature.media.url} alt={feature.media.alt || ""}  />
+                                    <img src={feature.media.url} alt={feature.media.alt || ""} className="max-w-xs max-h-xs" />
                                 ) : (
                                     <iframe src={feature.media.url} title={feature.media.caption} allowFullScreen />
                                 )}
