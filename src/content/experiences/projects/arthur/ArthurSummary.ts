@@ -8,7 +8,7 @@ import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
 export const ArthurSummary: ExperienceSummary = {
     title: "Arthur in Mixed Reality",
-    description: "Tap 4 Technologies",
+    description: "A mixed reality app that allows non-verbal hospital patients to have bedside conversations with staff and family.",
     startDate: "06-2024",
     endDate: "07-2024",
     pageLink: "/t4t/arthur",

@@ -5,6 +5,7 @@
 // ============================================================================
 
 import type { ExperienceSummary } from "../../content/experiences/ExperienceSummaryTypes";
+import { ArthurSummary } from "../../content/experiences/projects/arthur/ArthurSummary";
 import { CardsAndCastlesSummary } from "../../content/experiences/projects/cc/CardsAndCastlesSummary";
 import { PandorasPartyBoxSummary } from "../../content/experiences/projects/ppb/PandorasPartyBoxSummary";
 import { NASA22Summary } from "../../content/experiences/work/nasa-22/NASA22Summary";
@@ -18,6 +19,7 @@ export default function ExperienceArchivePage() {
     const experiences: ExperienceSummary[] = [
         NASA23Summary,
         NASA22Summary,
+        ArthurSummary,
         PandorasPartyBoxSummary,
         CardsAndCastlesSummary
     ]
