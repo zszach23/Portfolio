@@ -8,7 +8,7 @@ import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
 export const NASA23Summary: ExperienceSummary = {
     title: "Software Engineer Intern",
-    description: "NASA - Kennedy Space Center",
+    description: "Wrote automated tests for a system monitor that tracks the status of firing room systems during launch operations.",
     startDate: "06-2023",
     endDate: "08-2023",
     pageLink: "/nasa-23",
