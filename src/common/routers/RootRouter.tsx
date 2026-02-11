@@ -11,6 +11,7 @@ import NASA22Page from '../../modules/nasa22-experience/NASA22Page';
 import CardsAndCastlesPage from '../../modules/cards-and-castles-experience/CardsAndCastlesPage';
 import ScrollToTop from '../components/ScrollToTop';
 import NASA23Page from '../../modules/nasa23-experience/NASA23Page';
+import ASquarePage from '../../modules/a-square-experience/ASquarePage';
 
 export default function RootRouter() {
     return (
@@ -22,6 +23,7 @@ export default function RootRouter() {
                 <Route path="/archive" element={<ExperienceArchivePage />} />
                 
                 {/* Professional Experience Pages */}
+                <Route path="/a-square" element={<ASquarePage />} />
                 <Route path="/nasa-23" element={<NASA23Page />} />
                 <Route path="/nasa-22" element={<NASA22Page />} />
 

@@ -5,12 +5,12 @@
 // ============================================================================
 
 import { Link } from "react-router-dom";
-import Chevron from "../../common/components/visuals/Chevron";
-import SkillTag from "../../common/components/visuals/SkillTag";
-import { formatDateRange } from "../../common/utils/DateUtils";
+import Chevron from "./visuals/Chevron";
+import SkillTag from "./visuals/SkillTag";
+import { formatDateRange } from "../utils/DateUtils";
 import type { ExperienceSummary } from "../../content/experiences/ExperienceSummaryTypes";
 
-export default function HomeFeaturedExperienceCard({ experience }: { experience: ExperienceSummary}) {
+export default function ExperienceCard({ experience }: { experience: ExperienceSummary}) {
     return (
         <Link to={experience.pageLink} className="group block mb-12 p-6 rounded-lg transition-all hover:bg-purple-50 hover:shadow-md">
             <div className="flex gap-4 items-center">

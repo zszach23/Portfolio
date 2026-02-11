@@ -4,7 +4,6 @@
 // Featured Professional Experiences component for the home page.
 // ============================================================================
 
-import HomeFeaturedExperienceCard from "./HomeFeaturedExperienceCard";
 import type { ExperienceSummary } from "../../content/experiences/ExperienceSummaryTypes";
 import { T4TSummary } from "../../content/experiences/work/t4t/T4TSummary";
 import { LearningAssistantSummary } from "../../content/experiences/work/ucf-la/LearningAssistantSummary";
@@ -14,6 +13,7 @@ import { NASA22Summary } from "../../content/experiences/work/nasa-22/NASA22Summ
 import { sortByYearDescending } from "../../common/utils/ExperienceUtils";
 import ForwardArrowDocument from "../../common/components/visuals/ForwardArrowDocument";
 import "./Home.css";
+import ExperienceCard from "../../common/components/ExperienceCard";
 
 export default function HomeFeaturedProfessionalExperiences() {
     const featuredExperiences: ExperienceSummary[] = [
@@ -30,7 +30,7 @@ export default function HomeFeaturedProfessionalExperiences() {
             <h2 className="sectionHeader">Professional Experiences</h2>
             <div>
                 {sortedExperiences.map((experience) => (
-                    <HomeFeaturedExperienceCard
+                    <ExperienceCard
                         key={experience.pageLink}
                         experience={experience} 
                     />

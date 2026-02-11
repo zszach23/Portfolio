@@ -13,7 +13,7 @@ export const NASA23Summary: ExperienceSummary = {
     endDate: "08-2023",
     pageLink: "/nasa-23",
     imageUrl: `${import.meta.env.BASE_URL}assets/images/work/nasa/nasa-logo.jpg`,
-    company: "NASA",
+    company: "NASA - Kennedy Space Center",
     skills: [
         "Automated Testing Frameworks"
     ],

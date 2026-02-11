@@ -9,10 +9,8 @@ import type { ExperienceSummary } from "../../content/experiences/ExperienceSumm
 import { ArthurSummary } from "../../content/experiences/projects/arthur/ArthurSummary";
 import { StreamlineARSummary } from "../../content/experiences/projects/streamline-ar/StreamlineARSummary";
 import { VitalsSimSummary } from "../../content/experiences/projects/vitals-sim/VitalsSimSummary";
-import HomeFeaturedExperienceCard from "./HomeFeaturedExperienceCard";
+import ExperienceCard from "../../common/components/ExperienceCard";
 import "./Home.css";
-
-
 
 export default function HomeFeaturedProjects() {
 
@@ -27,7 +25,7 @@ export default function HomeFeaturedProjects() {
             <h2 className="sectionHeader">Featured Projects</h2>
             <div>
                 {featuredProjects.map((project) => (
-                    <HomeFeaturedExperienceCard 
+                    <ExperienceCard 
                         key={project.pageLink}
                         experience={project} />
                 ))}

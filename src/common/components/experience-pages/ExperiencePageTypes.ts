@@ -4,6 +4,8 @@
 // Type definitions for experience page components.
 // ============================================================================
 
+import type { ExperienceSummary } from "../../../content/experiences/ExperienceSummaryTypes";
+
 export type MediaItem = {
     type: "image" | "video";
     url: string;
@@ -42,4 +44,10 @@ export type ExperiencePageData = {
     overview: Overview;
     contributions: Contributions;
     challenges: Challenge[];
+}
+
+export type ExperienceGatewayPageData = {
+    bannerImageUrl: string;
+    overview: Overview;
+    relatedExperiences: ExperienceSummary[];
 }
