@@ -8,7 +8,7 @@ import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
 export const T4TSummary: ExperienceSummary = {
     title: "Lead XR + Backend Developer",
-    description: "Tap 4 Technologies",
+    description: "Led the development of multiple XR applications and backend services, including Arthur and StreamlineAR",
     startDate: "06-2024",
     endDate: "12-2025",
     pageLink: "/t4t",

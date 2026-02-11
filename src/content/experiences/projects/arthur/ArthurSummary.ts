@@ -14,6 +14,8 @@ export const ArthurSummary: ExperienceSummary = {
     pageLink: "/t4t/arthur",
     imageUrl: `${import.meta.env.BASE_URL}assets/images/projects/arthur/arthur-logo.png`,
     company: "Tap 4 Technologies",
+    externalLink: "https://www.tap4technologies.com/software-solutions",
+    externalLinkText: "View Website",
     skills: [
         "Unity",
         "C#",
