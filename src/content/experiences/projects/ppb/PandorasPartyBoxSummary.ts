@@ -8,7 +8,7 @@ import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
 export const PandorasPartyBoxSummary: ExperienceSummary = {
     title: "Pandora's Party Box",
-    description: "A Square Games and Simulation, LLC",
+    description: "A local multiplayer party game based around Greek mythology.",
     startDate: "08-2023",
     endDate: "12-2023",
     pageLink: "/a-square/ppb",
