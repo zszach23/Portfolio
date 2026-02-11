@@ -29,7 +29,7 @@ export default function ExperienceChallengesSection({ challenges }: { challenges
                     <div className="challengeItem">
                         <h4 className="challengeLabel">Solution</h4>
                         {challenge.solution.map((step, stepIndex) => (
-                            <p key={stepIndex} className="">{step}</p>
+                            <p key={stepIndex} className="mb-2">{step}</p>
                         ))}
                     </div>
                     <div className="challengeItem">
