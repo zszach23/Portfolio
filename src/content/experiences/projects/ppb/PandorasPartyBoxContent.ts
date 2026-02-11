@@ -27,7 +27,7 @@ export const PandorasPartyBoxContent: ExperiencePageData = {
                 ],
                 media: {
                         type: "video",
-                        url: "https://www.youtube.com/embed/p1LhHkICctg",
+                        url: "https://www.youtube.com/embed/plLhHkICctg",
                         caption: "The Labyrinth Demo"
                 }
             },
