@@ -8,7 +8,7 @@ import type { ExperienceSummary } from "../../ExperienceSummaryTypes";
 
 export const LearningAssistantSummary: ExperienceSummary = {
     title: "Learning Assistant",
-    description: "University of Central Florida",
+    description: "Guided students in learning OOP concepts in Java with detailed lecture notes and practice problems.",
     startDate: "05-2024",
     endDate: "08-2024",
     pageLink: "/ucf-la",
