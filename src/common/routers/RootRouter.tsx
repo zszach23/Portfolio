@@ -16,6 +16,9 @@ import PandorasPartyBoxPage from '../../modules/ppb-experience/PandorasPartyBoxP
 import ArthurPage from '../../modules/arthur-experience/ArthurPage';
 import T4TPage from '../../modules/t4t-experience/T4TPage';
 import SciFiWarehouseVRPage from '../../modules/sci-fi-warehouse-vr-experience/SciFiWarehouseVRPage';
+import VitalsSimPage from '../../modules/vitals-sim-experience/VitalsSimPage';
+import LearningAssistantPage from '../../modules/learning-assistant-experience/LearningAssistantPage';
+import KnightrodexPage from '../../modules/knightrodex-experience/KnightrodexPage';
 
 export default function RootRouter() {
     return (
@@ -28,13 +31,16 @@ export default function RootRouter() {
                 
                 {/* Professional Experience Pages */}
                 <Route path="/t4t" element={<T4TPage />} />
+                <Route path="/ucf-la" element={<LearningAssistantPage />} />
                 <Route path="/a-square" element={<ASquarePage />} />
                 <Route path="/nasa-23" element={<NASA23Page />} />
                 <Route path="/nasa-22" element={<NASA22Page />} />
 
                 {/* Project Experience Pages */}
+                <Route path="/vitals-sim" element={<VitalsSimPage />} />
                 <Route path="/t4t/arthur" element={<ArthurPage />} />
                 <Route path="/sci-fi-warehouse-vr" element={<SciFiWarehouseVRPage />} />
+                <Route path="/knightrodex" element={<KnightrodexPage />} />
                 <Route path="/a-square/ppb" element={<PandorasPartyBoxPage />} />
                 <Route path="/cards-and-castles" element={<CardsAndCastlesPage />} />
             </Routes>
