@@ -7,6 +7,7 @@
 import type { ExperienceSummary } from "../../content/experiences/ExperienceSummaryTypes";
 import { ArthurSummary } from "../../content/experiences/projects/arthur/ArthurSummary";
 import { CardsAndCastlesSummary } from "../../content/experiences/projects/cc/CardsAndCastlesSummary";
+import { KnightrodexSummary } from "../../content/experiences/projects/knightrodex/KnightrodexSummary";
 import { PandorasPartyBoxSummary } from "../../content/experiences/projects/ppb/PandorasPartyBoxSummary";
 import { SciFiWarehouseVRSummary } from "../../content/experiences/projects/sci-fi-warehouse-vr/SciFiWarehouseVRSummary";
 import { StreamlineARSummary } from "../../content/experiences/projects/streamline-ar/StreamlineARSummary";
@@ -28,6 +29,7 @@ export default function ExperienceArchivePage() {
         VitalsSimSummary,
         ArthurSummary,
         SciFiWarehouseVRSummary,
+        KnightrodexSummary,
         PandorasPartyBoxSummary,
         CardsAndCastlesSummary
     ]

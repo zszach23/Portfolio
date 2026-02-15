@@ -5,7 +5,7 @@
 // ============================================================================ */
 
 .pageBannerImage {
-    @apply m-2 w-full min-h-4 object-fill rounded-lg;
+    @apply m-2 w-full min-h-4 object-cover rounded-lg;
 }
 
 .pageTitle {
